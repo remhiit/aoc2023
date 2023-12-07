@@ -22,7 +22,7 @@ class ShematicTest {
 
     @Test
     fun getPartNumbersTest(){
-        val input = readFromResource("day3Test.txt")
+        val input = readFromResource("day3.txt")
         val result = Shematic(input).getPartNumbers()
         println(result.map { it.id })
         assertEquals(4361, result.map { it.id }.sum())
@@ -30,7 +30,7 @@ class ShematicTest {
 
     @Test
     fun gearTest(){
-        val input = readFromResource("day3Test.txt")
+        val input = readFromResource("day3.txt")
         val result = Shematic(input).getGears()
         println(result.map { it.value })
         assertEquals(467835, result.map { it.value }.sum())
