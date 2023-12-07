@@ -1,3 +1,5 @@
+package day2
+
 class Game(val id: Int, input: String) {
     val iteration: List<Map<String, Int>>
 

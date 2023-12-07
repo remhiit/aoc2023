@@ -1,3 +1,7 @@
+package day3
+
+import readFromResource
+
 fun main() {
     val input = readFromResource("day3.txt")
     val shematic = Shematic(input)

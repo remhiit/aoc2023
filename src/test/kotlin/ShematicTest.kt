@@ -1,3 +1,6 @@
+import day3.Num
+import day3.Shematic
+import day3.Symbol
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 import java.awt.Point

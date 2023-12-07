@@ -1,4 +1,6 @@
-import org.junit.jupiter.api.Assertions.*
+import day1.findDigitsInText
+import day1.findFirstDigit
+import day1.findLastDigit
 import org.junit.jupiter.api.Test
 
 class Day1_2KtTest{

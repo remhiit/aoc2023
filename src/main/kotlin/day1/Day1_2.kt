@@ -1,5 +1,9 @@
+package day1
+
+import Main
+
 fun main() {
-    val inputD1 = Main::class.java.getResource("day1_2.txt")?.readText()
+    val inputD1 = Main::class.java.getResource("day1.txt")?.readText()
     var nb = 0
     val calc = inputD1?.split("\r\n")
         ?.filter { it.isNotBlank() }

@@ -1,3 +1,5 @@
+package day3
+
 import java.awt.Point
 import kotlin.math.sqrt
 
